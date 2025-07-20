@@ -3,7 +3,7 @@
 A clean, modern, and **fully responsive personal portfolio website** designed to showcase my **skills, projects, and achievements**.  
 Built using **HTML, CSS, and JavaScript**, and hosted on **Netlify** for lightning-fast performance and accessibility.  
 
----
+
 
 ## ✨ Highlights  
 - **Professional Design:** Simple yet modern UI with smooth animations and scrolling.  
@@ -14,7 +14,7 @@ Built using **HTML, CSS, and JavaScript**, and hosted on **Netlify** for lightni
 - **Contact Form:** Netlify-powered contact form for easy communication.  
 - **Scroll-to-Top Button:** User-friendly navigation with reveal-on-scroll animations.  
 
----
+
 
 ## 🛠 Tech Stack  
 - **Frontend:** HTML5, CSS3, Vanilla JavaScript  
@@ -22,23 +22,23 @@ Built using **HTML, CSS, and JavaScript**, and hosted on **Netlify** for lightni
 - **Hosting:** Netlify (Continuous Deployment from GitHub)  
 - **Version Control:** Git & GitHub  
 
----
+
 
 ## 📌 Live Preview  
 🌐 **[View My Portfolio](https://rishusharma-portfolio.netlify.app/)**  
 
----
+
 
 ## 📂 Project Structure  
-portfolio/
+'''portfolio/
 ├── assets/          # Images, resume, and icons
 ├── index.html       # Main HTML file
 ├── style.css        # CSS styles
 ├── script.js        # JavaScript functionalities
-└── README.md        # Project documentation
+└── README.md        # Project documentation'''
 
 
----
+
 
 ## 📬 Contact
 Looking forward to **exciting opportunities in Software Development & Data Science**.  
@@ -47,6 +47,6 @@ Feel free to reach out:
 B.Tech CSE (Data Science) Student
 - **GitHub:** [RishuSharma18](https://github.com/RishuSharma18)
 
----
+
 
 
