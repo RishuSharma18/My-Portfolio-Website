@@ -30,8 +30,9 @@ Built using **HTML, CSS, and JavaScript**, and hosted on **Netlify** for lightni
 
 
 ## 📂 Project Structure  
-```portfolio/
-├── assets/          # Images, resume, and icons
+portfolio/
+```
+├── assets/          # Images, resume
 ├── index.html       # Main HTML file
 ├── style.css        # CSS styles
 ├── script.js        # JavaScript functionalities
@@ -45,9 +46,9 @@ Built using **HTML, CSS, and JavaScript**, and hosted on **Netlify** for lightni
 Looking forward to **exciting opportunities in Software Development & Data Science**.  
 Feel free to reach out:  
 
-**Rishu Sharma** 
-B.Tech CSE (Data Science) Student
-- **GitHub:** [RishuSharma18](https://github.com/RishuSharma18)
+[**Rishu Sharma**](https://github.com/RishuSharma18)  
+🎓 B.Tech CSE(Data Science) | ML & Data Science Enthusiast
+
 
 
 
