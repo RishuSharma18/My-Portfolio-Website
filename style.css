@@ -355,32 +355,6 @@ section h2 {
 
 /* ------------------- CONTACT ------------------- */
 
-.contact-form {
-  max-width: 500px;
-  margin: 0 auto;
-  background: #ffffff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-.contact-form input, .contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
-}
-
-.contact-form button {
-  background: #523cff;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
 .contact-icons {
   text-align: center;
