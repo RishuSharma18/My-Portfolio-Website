@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishu Sharma | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />  <!-- Google Fonts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>  <!-- Typed.js for Typing Animation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>  <!-- Font Awesome -->
+  <link rel="icon" href="assets/favi.jpeg" />  <!-- Favicon -->
+  <link rel="stylesheet" href="style.css">   <!-- Main CSS -->
+</head>
+<body>
+
+  <!-- ================== NAVBAR ================== -->
+  <nav>
+    <div class="left"><a href="#home">Rishu Sharma.</a></div>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <ul id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+    </ul>
+  </nav>
+
+  <!-- ================== HERO SECTION ================== -->
+  <section class="first" id="home">
+    <div class="leftSection">
+      <div>Hello,</div>
+      My name is <span class="gray">Rishu Sharma.</span>
+      <div>I'm a passionate learner,</div>
+      <span id="element"></span>
+      <div style="margin-top: 25px;">
+        <a href="assets/Rishu-Sharma_resume_portfolio.pdf" target="_blank" class="btn"><button class="button-resume">View Resume</button></a>
+        <a href="#contact"><button class="button-contact">Contact</button></a>
+        <a href="github.com"><button class="button-github">Github</button></a>
+      </div>
+      <div></div>
+    </div>
+    <div class="rightSection">
+      <img src="assets/home.png" alt="Profile Image" />
+    </div>
+  </section>
+
+  <!-- ================== ABOUT SECTION ================== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: center; background: linear-gradient(90deg, white, white, #e1f0fb); padding: 25px; border-radius: 10px; box-shadow: 0 0 1000px #ccc;">
+      
+      <!-- Profile Image -->
+      <div style="flex: 1; min-width: 280px; text-align: center;">
+        <img src="assets/about.png" alt="Rishu Sharma" style="width: 100%; max-width: 300px; border-radius: 15px;" />
+      </div>
+
+      <!-- About Content -->
+      <div style="flex: 2; min-width: 280px; font-size: 1.1rem;">
+        <ul style="padding-left: 0; line-height: 1.9;">
+          <li>I'm <strong>Rishu Sharma</strong>, a B.Tech CSE (Data Science) III year student at SKIT, Jaipur.</li>
+          <li>Currently exploring <strong>Data Science</strong> and ML concepts.</li>
+          <li>Passionate about <strong>Data Structures & Algorithms</strong> and solving problems to sharpen logic.</li>
+          <li>
+            Practicing regularly on:
+            <br>
+            <a href="https://leetcode.com/your_leetcode_username" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" style="height: 22px; margin-right: 8px;">
+              <span style="color: #026bff; font-weight: 500;">LeetCode</span>
+            </a><br>
+            <a href="https://auth.geeksforgeeks.org/user/your_gfg_username" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt="GFG" style="height: 11px; margin-right: 8px;">
+              <span style="color: #026bff; font-weight: 500;">GeeksforGeeks</span>
+            </a>
+          </li>
+          <li>Worked on data-centric projects with visual storytelling and analysis.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================== EDUCATION SECTION ================== -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-card">
+      <h3>B.Tech - CSE(Data Science)</h3>
+      <p>Swami Keshvanand Institute of Technology, Jaipur | <b>2023 - Present</b></p>
+      <span style="color: #026bff;">CGPA : 9.7/10</span>
+    </div>
+    <div class="education-card">
+      <h3>12th - CBSE</h3>
+      <p>D.C. Public School | <b>2023</b></p>
+      <span style="color: #026bff;">Percentage : 85%</span>
+    </div>
+    <div class="education-card">
+      <h3>10th - CBSE</h3>
+      <p>D.C. Public School | <b>2021</b></p>
+      <span style="color: #026bff;">Percentage : 95.17%</span>
+    </div>
+  </section>
+
+
+
+  <!-- ======= Skills Section ======= -->
+  <section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-wrapper">
+
+    <!-- Programming Languages -->
+    <div class="skill-card">
+      <h3><i class="fas fa-code"></i> Programming Languages</h3>
+      <div class="skill-tags">
+        <span class="tag"><i class="fas fa-code" style="color: #00599C;"></i> C++</span>
+        <span class="tag"><i class="fab fa-python" style="color: #3776AB;"></i> Python</span>
+      </div>
+    </div>
+
+    <!-- Data Science & ML -->
+    <div class="skill-card">
+      <h3><i class="fas fa-brain"></i> Data Science & ML</h3>
+      <div class="skill-tags">
+        <span class="tag"><i class="fas fa-database" style="color: #795548;"></i> Pandas</span>
+        <span class="tag"><i class="fas fa-chart-line" style="color: #1565C0;"></i> NumPy</span>
+        <span class="tag"><i class="fas fa-chart-bar" style="color: #E65100;"></i> Matplotlib</span>
+        <span class="tag"><i class="fas fa-search" style="color: #3F51B5;"></i> EDA</span>
+        <span class="tag"><i class="fas fa-project-diagram" style="color: #f44336;"></i> Scikit-learn</span>
+      </div>
+    </div>
+
+    <!-- Core CS Concepts -->
+    <div class="skill-card">
+      <h3><i class="fas fa-book"></i> Core CS Concepts</h3>
+      <div class="skill-tags">
+        <span class="tag"><i class="fas fa-cubes" style="color: #9C27B0;"></i> OOPs</span>
+        <span class="tag"><i class="fas fa-database" style="color: #009688;"></i> DBMS</span>
+        <span class="tag"><i class="fas fa-network-wired" style="color: #607d8b;"></i> Computer Networks</span>
+        <!-- <span class="tag"><i class="fas fa-memory" style="color: #4caf50;"></i> Operating System</span> -->
+      </div>
+    </div>
+
+    <!-- Web Development -->
+    <div class="skill-card">
+      <h3><i class="fas fa-globe"></i> Web Development</h3>
+      <div class="skill-tags">
+        <span class="tag"><i class="fab fa-html5" style="color: #e34c26;"></i> HTML</span>
+        <span class="tag"><i class="fab fa-css3-alt" style="color: #264de4;"></i> CSS</span>
+        <span class="tag"><i class="fab fa-bootstrap" style="color: #563d7c;"></i> Bootstrap</span>
+      </div>
+    </div>
+
+
+    <!-- Tools & Platforms -->
+    <div class="skill-card">
+      <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+      <div class="skill-tags">
+        <span class="tag"><i class="fab fa-git-alt" style="color: #f05030;"></i> Git</span>
+        <span class="tag"><i class="fab fa-github" style="color: #000;"></i> GitHub</span>
+        <span class="tag"><i class="fas fa-desktop" style="color: #FF4B4B;"></i> Streamlit</span>
+        <span class="tag"><i class="fas fa-code" style="color: #007ACC;"></i> VS Code</span>
+        <span class="tag"><i class="fas fa-book" style="color: #F37626;"></i> Jupyter Notebook</span>
+        <span class="tag"><i class="fas fa-cloud" style="color: #4285F4;"></i> Google Colab</span>
+        <span class="tag"><i class="fas fa-bezier-curve" style="color: #0061f2;"></i> Canva </span>
+        <span class="tag"><i class="fab fa-figma" style="color: #a259ff;"></i> Figma</span>
+
+
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- ================== PROJECTS SECTION ================== -->
+  <section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-container">
+    <div class="project-card">
+  <img src="assets/SpamRadar.png" alt="SpamRadar App Screenshot">
+  <h3 style="color: #026bff;">🛡️ SpamRadar – SMS Spam Detection App</h3><hr>
+  <p style="font-size: 0.9rem;">
+    A machine learning powered Streamlit web app that classifies SMS messages as <strong>Spam</strong> or <strong>Not Spam</strong> in real-time.
+    It uses a <strong>Naive Bayes model</strong> with 96.8% accuracy, featuring CSV batch prediction, spam word highlighting, and an admin panel.
+  </p>
+  <div class="project-buttons">
+    <a href="https://github.com/RishuSharma18/SpamRadar" class="btn-github" target="_blank">GitHub</a>
+    <a href="https://spamradar.streamlit.app/" class="btn-live" target="_blank">Live Demo</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="assets/eda.png" alt="EDA on Global Sugarcane Production" style="height: 34%;">
+  <h3 style="color: #026bff;">🌾 EDA on Global Sugarcane Production</h3><hr>
+  <p style="font-size: 0.9rem;"> Analyzed sugarcane production data from <strong>103+</strong> countries using Pandas, Seaborn, and Plotly to uncover trends in yield, land usage, and output, with insightful visualizations including dynamic charts and a choropleth world map.
+
+.</p>
+  <div class="project-buttons">
+    <a href="https://github.com/RishuSharma18/Sugarcane-EDA" class="btn-github" target="_blank">GitHub</a>
+  </div>
+</div>
+       
+  </div>
+</section>
+
+  
+  <!-- ================== ACHIEVEMENTS SECTION ================== -->
+  <section id="achievements">
+  <h2>Achievements</h2>
+  <div class="achievements-wrapper">
+
+    <div class="achievement-card">
+  <h3><i class="fas fa-user-graduate"></i> Academic Distinctions</h3>
+  <ul>
+    <li> <strong>Pragati Scholarship Awardee 2023 (NSP)</strong> – Among top 5,000 meritorious students selected nationwide by AICTE.</li>
+    <li> Maintained a stellar <strong>CGPA of 9.7/10</strong> in B.Tech CSE (Data Science).</li>
+  </ul>
+</div>
+
+    <div class="achievement-card">
+  <h3><i class="fas fa-certificate"></i> Certifications & Courses</h3>
+  <ul>
+    <li><strong>NPTEL Certifications</strong> – Programming in Modern C++, Problem Solving through Programming in C, DBMS, Soft Skills</li>
+    <li><strong>GeeksforGeeks</strong> – DSA Masterclass, Python Programming (Completed)</li>
+    <li><strong>Ongoing</strong> – Data Science & Machine Learning Program (GeeksforGeeks)</li>
+    <li><strong>Reliance Foundation Skilling Academy</strong> – Front-End Web Development</li>
+    <li><strong>Government Certified</strong> – Clarified Course on Computer Concepts by <strong>NIELIT</strong> (Ministry of Electronics & IT)</li>
+
+  </ul>
+</div>
+
+
+<div class="achievement-card">
+  <h3><i class="fas fa-lightbulb"></i> Hackathon Exposure</h3>
+  <ul>
+    <li>Participated in <strong>JECRC Innovate Hackathon 2024</strong> – Developed a tech solution with team collaboration.</li>
+    <li>Submitted an idea in <strong>SIH 2024 (Internal Round)</strong> – Gained insight into real-world problem solving.</li>
+  </ul>
+</div>
+
+
+    <div class="achievement-card">
+  <h3><i class="fas fa-futbol"></i>Sports Achievements</h3>
+  <ul>
+    <li>
+      <strong>Selected</strong> to represent <strong>RTU Kota</strong> at the prestigious <strong>West Zone Inter-University Basketball Tournament 2024</strong>.
+    </li>
+    <li>
+      <strong>Champion</strong> – RTU Inter-College Basketball Tournaments <strong>(2023 & 2024)</strong>.
+    </li>
+    <li>
+      <strong>Runner-Up</strong> – <strong>Aaveg 2024</strong>, SKIT's Annual Sports Fest.
+    </li>
+    <li>
+      Active <strong>College Basketball Team Player</strong>
+    </li>
+  </ul>
+</div>
+
+
+    <div class="achievement-card">
+  <h3><i class="fas fa-user-tie"></i> Leadership & Volunteering</h3>
+  <ul>
+    <li>
+      <strong>Documentation Team Member</strong> – Contributed to the drafting and reporting for <strong>Pravah 2025</strong>, the annual cultural fest of SKIT.
+    </li>
+    <li>
+      <strong>Core Volunteer</strong> – Actively contributed to the <strong>Mega Blood Donation Camp 2024</strong>, managing donor registration and support logistics.
+    </li>
+    <li>
+      <strong>Sports Fest Contributor</strong> – Volunteered in organizing the events during <strong>Aaveg 2024</strong>, SKIT’s annual sports fest.
+    </li>
+  </ul>
+</div>
+</section>
+
+  <!-- ================== CONTACT SECTION ================== -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-form">
+      <form name="contact" method="POST" data-netlify="true"> 
+        <!-- account  banana he formspree pr  -->
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Mail</button>
+      </form>
+    </div>
+    <div class="contact-icons">
+  <a href="mailto:rishusharma1918@gmail.com" target="_blank" title="Email">
+    <i class="fas fa-envelope" style="color: #ea4335;"></i> <!-- Gmail Red -->
+  </a>
+  <a href="https://www.linkedin.com/in/rishu-sharma" target="_blank" title="LinkedIn">
+    <i class="fab fa-linkedin" style="color: #0077b5;"></i> <!-- LinkedIn Blue -->
+  </a>
+  <a href="https://github.com/rishu" target="_blank" title="GitHub">
+    <i class="fab fa-github" style="color: #333;"></i> <!-- GitHub Gray -->
+  </a>
+  <a href="https://auth.geeksforgeeks.org/user/yourusername" target="_blank" title="GeeksforGeeks">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt="GFG" style="height: 20px; vertical-align: middle;">
+  </a>
+  <a href="https://leetcode.com/yourusername" target="_blank" title="LeetCode">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" style="height: 29px; vertical-align: middle;">
+  </a>
+</div>
+
+  </section>
+  
+
+  <!-- ================== FOOTER ================== -->
+  <div class="footer">
+    &copy; 2025 Designed with 💙 by Rishu Sharma. All rights reserved.
+  </div>
+
+  <script src="script.js"></script>  <!-- Main js-->
+</body>
+</html>
