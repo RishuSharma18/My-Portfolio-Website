@@ -11,7 +11,6 @@ Built using **HTML, CSS, and JavaScript**, and hosted on **Netlify** for lightni
 - **Interactive Navbar:** Smooth scrolling and active link highlights for better navigation.  
 - **Projects Showcase:** Key projects with GitHub repositories and live demos.  
 - **Achievements & Skills:** Organized sections to highlight technical expertise and milestones.  
-- **Contact Form:** Netlify-powered contact form for easy communication.  
 - **Scroll-to-Top Button:** User-friendly navigation with reveal-on-scroll animations.  
 
 
