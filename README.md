@@ -43,7 +43,7 @@ portfolio/
 
 ## 📬 Contact
 Looking forward to **exciting opportunities in Software Development & Data Science**.  
-Feel free to reach out:  
+
 
 [**Rishu Sharma**](https://github.com/RishuSharma18)  
 🎓 B.Tech CSE(Data Science) | ML & Data Science Enthusiast
