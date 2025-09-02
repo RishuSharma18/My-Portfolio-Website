@@ -9,8 +9,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>  <!-- Font Awesome -->
   <link rel="icon" href="assets/favi.jpeg" />  <!-- Favicon -->
   <link rel="stylesheet" href="style.css">   <!-- Main CSS -->
+  
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
 <body>
+<div id="particles-js"></div>
 
   <!-- ================== NAVBAR ================== -->
   <nav>
@@ -35,25 +41,25 @@
       <div style="margin-top: 25px;">
         <a href="assets/Rishu-Sharma_resume_portfolio.pdf" target="_blank" class="btn"><button class="button-resume">View Resume</button></a>
         <a href="mailto:rishusharma1918@gmail.com"><button class="button-contact">Contact</button></a>
+<<<<<<< HEAD:index.html
         <a href="https://github.com/RishuSharma18"><button class="button-github">Github</button></a>
+=======
+        <a href="https://github.com/RishuSharma18" target="_blank"><button class="button-github">Github</button></a>
+>>>>>>> be7e663 (Updated files):ind.html
       </div>
       <div></div>
     </div>
     <div class="rightSection">
-      <img src="assets/home.png" alt="Profile Image" />
+      <img src="assets/home.png" alt="Profile Image">
     </div>
   </section>
 
   <!-- ================== ABOUT SECTION ================== -->
   <section id="about">
-    <h2>About Me</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: center; background: linear-gradient(90deg, white, white, #e1f0fb); padding: 25px; border-radius: 10px; box-shadow: 0 0 1000px #ccc;">
-      
-      <!-- Profile Image -->
-      <div style="flex: 1; min-width: 280px; text-align: center;">
-        <img src="assets/about.png" alt="Rishu Sharma" style="width: 100%; max-width: 300px; border-radius: 15px;" />
-      </div>
+  <h2 class="section-heading">About Me</h2>
+  <div class="about-container">
 
+<<<<<<< HEAD:index.html
       <!-- About Content -->
       <div style="flex: 2; min-width: 280px; font-size: 1.1rem;">
         <ul style="padding-left: 0; line-height: 1.9;">
@@ -74,30 +80,82 @@
           </li>
           <li>Worked on data-centric projects with visual storytelling and analysis.</li>
         </ul>
+=======
+    <!-- Profile Image -->
+    <div class="about-image">
+      <img src="assets/about.jpg" alt="Rishu Sharma">
+    </div>
+
+    <!-- About Content -->
+    <div class="about-content">
+      <ul>
+        <li>
+          Hi, I'm <strong>Rishu Sharma</strong>, a passionate Computer Science Engineering (Data Science) student in my 3rd year at <strong>SKIT, Jaipur</strong>.
+        </li>
+        <li>
+          I’m currently diving deep into the world of <strong>Data Analytics</strong>, exploring the power of data through projects, storytelling, and visual analytics.
+        </li>
+        <li>
+          Passionate about <strong>Data Structures and Algorithms</strong>, I practice regularly to sharpen my logical thinking and problem-solving skills.
+          <br>
+          <a href="https://leetcode.com/Rishu_Sharma18" target="_blank" class="about-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode">
+            <span>LeetCode</span>
+          </a>
+          <br>
+          <a href="https://auth.geeksforgeeks.org/user/rishusharma18" target="_blank" class="about-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt="GFG">
+            <span>GeeksforGeeks</span>
+          </a>
+        </li>
+        <li>
+          I’ve worked on several <strong>data-centric projects</strong> that focus on uncovering meaningful insights and creating visually impactful dashboards.
+        </li>
+        <li>
+          My philosophy: <em>“Continuous learning, real-world application.”</em> I aim to build solutions that merge technical skills with creative problem-solving.
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+  
+  <!-- ===== EDUCATION SECTION ===== -->
+<section id="education">
+  <h2 class="section-title">🎓 Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <h3>B.Tech in CSE (Data Science)</h3>
+        <span>2023 - 2027 | SKIT, Jaipur</span>
+        <p>Currently pursuing B.Tech in CSE with a focus on Data Science, Machine Learning, and Software Development.</p>
+        <p><strong>Current CGPA : 9.7 / 10</strong></p>
+>>>>>>> be7e663 (Updated files):ind.html
       </div>
     </div>
-  </section>
 
+    <div class="timeline-item right">
+      <div class="timeline-content">
+        <h3>Senior Secondary (12th)</h3>
+        <span><b>2022 - 2023 | CBSE Board</b></span>
+        <p><strong>Percentage : 85%</strong></p>
+      </div>
+    </div>
 
-  <!-- ================== EDUCATION SECTION ================== -->
-  <section id="education">
-    <h2>Education</h2>
-    <div class="education-card">
-      <h3>B.Tech - CSE(Data Science)</h3>
-      <p>Swami Keshvanand Institute of Technology, Jaipur | <b>2023 - Present</b></p>
-      <span style="color: #026bff;">CGPA : 9.7/10</span>
+    <div class="timeline-item left">
+      <div class="timeline-content">
+        <h3>Secondary (10th)</h3>
+        <span>2020 - 2021 | CBSE Board</span>
+        <p><strong>Percentage : 95.17% </strong></p>
+      </div>
     </div>
-    <div class="education-card">
-      <h3>12th - CBSE</h3>
-      <p>D.C. Public School | <b>2023</b></p>
-      <span style="color: #026bff;">Percentage : 85%</span>
-    </div>
-    <div class="education-card">
-      <h3>10th - CBSE</h3>
-      <p>D.C. Public School | <b>2021</b></p>
-      <span style="color: #026bff;">Percentage : 95.17%</span>
-    </div>
-  </section>
+
+  </div>
+</section>
+
 
 
 
@@ -170,107 +228,95 @@
 
 
   <!-- ================== PROJECTS SECTION ================== -->
-  <section id="projects">
-  <h2>Projects</h2>
+<section id="projects">
+  <h2>My Projects</h2>
   <div class="projects-container">
+    
     <div class="project-card">
-  <img src="assets/SpamRadar.png" alt="SpamRadar App Screenshot">
-  <h3 style="color: #026bff;">🛡️ SpamRadar – SMS Spam Detection App</h3><hr>
-  <p style="font-size: 0.9rem;">
-    A machine learning powered Streamlit web app that classifies SMS messages as <strong>Spam</strong> or <strong>Not Spam</strong> in real-time.
-    It uses a <strong>Naive Bayes model</strong> with 96.8% accuracy, featuring CSV batch prediction, spam word highlighting, and an admin panel.
-  </p>
-  <div class="project-buttons">
-    <a href="https://github.com/RishuSharma18/SpamRadar" class="btn-github" target="_blank">GitHub</a>
-    <a href="https://spamradar.streamlit.app/" class="btn-live" target="_blank">Live Demo</a>
-  </div>
-</div>
+      <img src="assets/SpamRadar.png" alt="SpamRadar App Screenshot">
+      <h3>🛡️ SpamRadar – SMS Spam Detection App</h3>
+      <hr>
+      <p>
+        A machine learning powered Streamlit web app that classifies SMS messages as <strong>Spam</strong> or <strong>Not Spam</strong> in real-time.
+        It uses a <strong>Naive Bayes model</strong> with 96.8% accuracy, featuring CSV batch prediction, spam word highlighting, and an admin panel.
+      </p>
+      <div class="project-buttons">
+        <a href="https://github.com/RishuSharma18/SpamRadar" class="btn-github" target="_blank">GitHub</a>
+        <a href="https://spamradar.streamlit.app/" class="btn-live" target="_blank">Live Demo</a>
+      </div>
+    </div>
 
-<div class="project-card">
-  <img src="assets/eda.png" alt="EDA on Global Sugarcane Production" style="height: 34%;">
-  <h3 style="color: #026bff;">🌾 EDA on Global Sugarcane Production</h3><hr>
-  <p style="font-size: 0.9rem;"> Analyzed sugarcane production data from <strong>103+</strong> countries using Pandas, Seaborn, and Plotly to uncover trends in yield, land usage, and output, with insightful visualizations including dynamic charts and a choropleth world map.
+    <div class="project-card">
+      <img src="assets/eda.png" alt="EDA on Global Sugarcane Production">
+      <h3>🌾 EDA on Global Sugarcane Production</h3>
+      <hr>
+      <p>
+        Analyzed sugarcane production data from <strong>103+</strong> countries using Pandas, Seaborn, and Plotly to uncover trends in yield, land usage, and output, with insightful visualizations including dynamic charts and a choropleth world map.
+      </p>
+      <div class="project-buttons">
+        <a href="https://github.com/RishuSharma18/Sugarcane-EDA" class="btn-github" target="_blank">GitHub</a>
+      </div>
+    </div>
 
-.</p>
-  <div class="project-buttons">
-    <a href="https://github.com/RishuSharma18/Sugarcane-EDA" class="btn-github" target="_blank">GitHub</a>
-  </div>
-</div>
-       
   </div>
 </section>
 
   
   <!-- ================== ACHIEVEMENTS SECTION ================== -->
-  <section id="achievements">
-  <h2>Achievements</h2>
+<section id="achievements">
+  <h2 class="section-title">Achievements</h2>
   <div class="achievements-wrapper">
 
     <div class="achievement-card">
-  <h3><i class="fas fa-user-graduate"></i> Academic Distinctions</h3>
-  <ul>
-    <li> <strong>Pragati Scholarship Awardee 2023 (NSP)</strong> – Among top 5,000 meritorious students selected nationwide by AICTE.</li>
-    <li> Maintained a stellar <strong>CGPA of 9.7/10</strong> in B.Tech CSE (Data Science).</li>
-  </ul>
-</div>
+      <h3><i class="fas fa-user-graduate achievement-icon"></i> Academic Distinctions</h3>
+      <ul>
+        <li><strong>Pragati Scholarship Awardee 2023 (NSP)</strong> – Among top 5,000 meritorious students selected nationwide by AICTE.</li>
+        <li>Maintained a stellar <strong>CGPA of 9.7/10</strong> in B.Tech CSE (Data Science).</li>
+      </ul>
+    </div>
 
     <div class="achievement-card">
-  <h3><i class="fas fa-certificate"></i> Certifications & Courses</h3>
-  <ul>
-    <li><strong>NPTEL Certifications</strong> – Programming in Modern C++, Problem Solving through Programming in C, DBMS, Soft Skills</li>
-    <li><strong>GeeksforGeeks</strong> – DSA Masterclass, Python Programming (Completed)</li>
-    <li><strong>Ongoing</strong> – Data Science & Machine Learning Program (GeeksforGeeks)</li>
-    <li><strong>Reliance Foundation Skilling Academy</strong> – Front-End Web Development</li>
-    <li><strong>Government Certified</strong> – Clarified Course on Computer Concepts by <strong>NIELIT</strong> (Ministry of Electronics & IT)</li>
-
-  </ul>
-</div>
-
-
-<div class="achievement-card">
-  <h3><i class="fas fa-lightbulb"></i> Hackathon Exposure</h3>
-  <ul>
-    <li>Participated in <strong>JECRC Innovate Hackathon 2024</strong> – Developed a tech solution with team collaboration.</li>
-    <li>Submitted an idea in <strong>SIH 2024 (Internal Round)</strong> – Gained insight into real-world problem solving.</li>
-  </ul>
-</div>
-
+      <h3><i class="fas fa-certificate achievement-icon"></i> Certifications & Courses</h3>
+      <ul>
+        <li><strong>NPTEL Certifications</strong> – Programming in Modern C++, Problem Solving through Programming in C, DBMS, Soft Skills</li>
+        <li><strong>GeeksforGeeks</strong> – DSA Masterclass, Python Programming (Completed)</li>
+        <li><strong>Ongoing</strong> – Data Science & Machine Learning Program (GeeksforGeeks)</li>
+        <li><strong>Reliance Foundation Skilling Academy</strong> – Front-End Web Development</li>
+        <li><strong>Government Certified</strong> – Clarified Course on Computer Concepts by <strong>NIELIT</strong></li>
+      </ul>
+    </div>
 
     <div class="achievement-card">
-  <h3><i class="fas fa-futbol"></i>Sports Achievements</h3>
-  <ul>
-    <li>
-      <strong>Selected</strong> to represent <strong>RTU Kota</strong> at the prestigious <strong>West Zone Inter-University Basketball Tournament 2024</strong>.
-    </li>
-    <li>
-      <strong>Champion</strong> – RTU Inter-College Basketball Tournaments <strong>(2023 & 2024)</strong>.
-    </li>
-    <li>
-      <strong>Runner-Up</strong> – <strong>Aaveg 2024</strong>, SKIT's Annual Sports Fest.
-    </li>
-    <li>
-      Active <strong>College Basketball Team Player</strong>
-    </li>
-  </ul>
-</div>
-
+      <h3><i class="fas fa-lightbulb achievement-icon"></i> Hackathon Exposure</h3>
+      <ul>
+        <li>Participated in <strong>JECRC Innovate Hackathon 2024</strong> – Developed a tech solution with team collaboration.</li>
+        <li>Submitted an idea in <strong>SIH 2024 (Internal Round)</strong> – Gained insight into real-world problem solving.</li>
+      </ul>
+    </div>
 
     <div class="achievement-card">
-  <h3><i class="fas fa-user-tie"></i> Leadership & Volunteering</h3>
-  <ul>
-    <li>
-      <strong>Documentation Team Member</strong> – Contributed to the drafting and reporting for <strong>Pravah 2025</strong>, the annual cultural fest of SKIT.
-    </li>
-    <li>
-      <strong>Core Volunteer</strong> – Actively contributed to the <strong>Mega Blood Donation Camp 2024</strong>, managing donor registration and support logistics.
-    </li>
-    <li>
-      <strong>Sports Fest Contributor</strong> – Volunteered in organizing the events during <strong>Aaveg 2024</strong>, SKIT’s annual sports fest.
-    </li>
-  </ul>
-</div>
+      <h3><i class="fas fa-futbol achievement-icon"></i> Sports Achievements</h3>
+      <ul>
+        <li><strong>Selected</strong> to represent <strong>RTU Kota</strong> at the <strong>West Zone Inter-University Basketball Tournament 2024</strong>.</li>
+        <li><strong>Champion</strong> – RTU Inter-College Basketball Tournaments <strong>(2023 & 2024)</strong>.</li>
+        <li><strong>Runner-Up</strong> – <strong>Aaveg 2024</strong>, SKIT's Annual Sports Fest.</li>
+        <li>Active <strong>College Basketball Team Player</strong></li>
+      </ul>
+    </div>
+
+    <div class="achievement-card">
+      <h3><i class="fas fa-user-tie achievement-icon"></i> Leadership & Volunteering</h3>
+      <ul>
+        <li><strong>Documentation Team Member</strong> – Drafting and reporting for <strong>Pravah 2025</strong>.</li>
+        <li><strong>Core Volunteer</strong> – Mega Blood Donation Camp 2024, managed logistics.</li>
+        <li><strong>Sports Fest Contributor</strong> – Aaveg 2024 event management.</li>
+      </ul>
+    </div>
+
+  </div>
 </section>
 
+<<<<<<< HEAD:index.html
   <!-- ================== CONTACT SECTION ================== -->
   <section id="contact">
     <div class="contact-icons">
@@ -290,14 +336,31 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" style="height: 29px; vertical-align: middle;">
   </a>
 </div>
+=======
 
-  </section>
-  
+<!-- ================== FOOTER SECTION ================== -->
+<footer class="footer">
+  <div class="footer-container">
+    <h2>Rishu Sharma</h2>
+    <p>Turning ideas into impactful solutions with code 💻</p>
 
-  <!-- ================== FOOTER ================== -->
-  <div class="footer">
-    &copy; 2025 Designed with 💙 by Rishu Sharma. All rights reserved.
+    <div class="footer-socials">
+      <a href="https://github.com/RishuSharma18" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:rishusharma1918@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://leetcode.com/Rishu_Sharma18" target="_blank"><i class="fas fa-code"></i></a>
+      <a href="https://auth.geeksforgeeks.org/user/rishusharma18/profile" target="_blank" title="GeeksforGeeks Profile">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GeeksforGeeks.svg/512px-GeeksforGeeks.svg.png" alt="GFG Logo" width="24" style="filter: brightness(0) invert(1); vertical-align: middle;">
+</a>
+
+    </div>
+>>>>>>> be7e663 (Updated files):ind.html
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Rishu Sharma | All Rights Reserved</p>
+    </div>
   </div>
+</footer>
 
   <script src="script.js"></script>  <!-- Main js-->
 </body>
