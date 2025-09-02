@@ -221,7 +221,6 @@ section h2 {
 }
 
 /* ========== ABOUT SECTION STYLES ========== */
-
 #about {
   padding: 60px 20px;
   color: white;
@@ -249,7 +248,7 @@ section h2 {
 
 .about-image {
   flex: 1;
-  min-width: 30px;
+  min-width: 250px;
   text-align: center;
 }
 
@@ -263,30 +262,15 @@ section h2 {
   animation: breathe 6s infinite ease-in-out, glow 3s infinite alternate;
 }
 
-
-/* Zoom In-Out (Breathing effect) */
 @keyframes breathe {
-  0%, 100% {
-    transform: scale(1) rotate(0deg);
-  }
-  50% {
-    transform: scale(1.05) rotate(1deg);
-  }
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.05) rotate(1deg); }
 }
 
-/* Glow effect */
 @keyframes glow {
-  0% {
-    box-shadow: 0 0 10px #afb7f5, 0 0 20px #afb7f5;
-    border-color: #afb7f5;
-  }
-  100% {
-    box-shadow: 0 0 20px #1e3c72, 0 0 40px #1e3c72;
-    border-color: #1e3c72;
-  }
+  0% { box-shadow: 0 0 10px #afb7f5, 0 0 20px #afb7f5; border-color: #afb7f5; }
+  100% { box-shadow: 0 0 20px #1e3c72, 0 0 40px #1e3c72; border-color: #1e3c72; }
 }
-
-
 
 .about-content {
   flex: 2;
@@ -322,7 +306,6 @@ section h2 {
     flex-direction: column;
     padding: 20px;
   }
-
   .about-content {
     font-size: 1rem;
   }
@@ -685,6 +668,20 @@ section h2 {
   line-height: 1.6;
 }
 
+/* Icon normal state */
+.achievement-icon {
+  display: inline-block;
+  font-size: 24px;
+  color: #7c4ac7;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Rotate icon when its parent card is hovered */
+.achievement-card:hover .achievement-icon {
+  transform: rotate(360deg);
+}
+
+
 /* ------------------- CONTACT ------------------- */
 
 
@@ -704,18 +701,6 @@ section h2 {
   color: #523cff;
   font-size: 1.4rem;
 }
-
-/* ------------------- FOOTER ------------------- */
-t-card .achievement-icon {
-  display: inline-block;       
-  transition: transform 0.6s ease;
-  transform-origin: center;
-}
-
-.achievement-card:hover .achievement-icon {
-  transform: rotate(360deg);
-}
-
 
 /* ================== FOOTER STYLES ================== */
 .footer {
@@ -762,11 +747,6 @@ t-card .achievement-icon {
   font-size: 13px;
   color: #aaa;
 }
-.footer-socials a:hover {
-  transform: scale(1.3);
-  color: #00e6e6;
-}
-
 
 @keyframes fadeInUp {
   0% {
@@ -779,6 +759,7 @@ t-card .achievement-icon {
   }
 }
 
+/* Responsive Footer */
 @media (max-width: 600px) {
   .footer h2 {
     font-size: 20px;
@@ -789,7 +770,6 @@ t-card .achievement-icon {
     margin: 0 8px;
   }
 }
-
 
 
 
